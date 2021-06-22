@@ -48,6 +48,6 @@ api/text3d-4?text=Halo Gais
 ```
 
 # Live ApI
-* https://textmaker-api-zahirr.herokuapp.com
-- Gunakan Parameter Yang Sama Seperti Diatas Ya :)
+* https://supra-api.herokuapp.com
+- Parâmetro Gunakan Yang Sama Seperti Diatas Ya :)
 - Jangan Diperjualbelikan ApI Ini { Masih Ngeyel, Dosa Tanggung Sendiri } , jika kalian ingin mengambil dan meRename nya tidak masalah, karena ini adalah ApI Open Source
