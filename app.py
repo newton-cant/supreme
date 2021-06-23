@@ -35,8 +35,7 @@ def makerr():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
-         "Criador":"@Supra",
-            
+         "Criador":"@Supra",            
          "results":p
          }
         return js
@@ -55,7 +54,7 @@ def makerr2():
         par = {
          'key':'761ea2d5575581057a799d14e9c78e28',
          'image':image_64_encode,
-         'name':'support zahirr',
+         'name':'support supra',
          'expiration': 60
          }
         headers = {
@@ -64,6 +63,7 @@ def makerr2():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
+         "criador":"@supra",
          "results":p
          }
         return js
@@ -82,7 +82,7 @@ def makerr3():
         par = {
          'key':'761ea2d5575581057a799d14e9c78e28',
          'image':image_64_encode,
-         'name':'support zahirr',
+         'name':'support supra',
          'expiration': 60
          }
         headers = {
@@ -91,6 +91,7 @@ def makerr3():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
+         "criador":"@supra",
          "results":p
          }
         return js
@@ -109,7 +110,7 @@ def makerr4():
         par = {
          'key':'761ea2d5575581057a799d14e9c78e28',
          'image':image_64_encode,
-         'name':'support zahirr',
+         'name':'support supra',
          'expiration': 60
          }
         headers = {
@@ -118,6 +119,7 @@ def makerr4():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
+         "criador":"@Supra",
          "results":p
          }
         return js
@@ -136,7 +138,7 @@ def tigadimensi():
         par = {
          'key':'761ea2d5575581057a799d14e9c78e28',
          'image':image_64_encode,
-         'name':'support zahirr',
+         'name':'support supra',
          'expiration': 60
          }
         headers = {
@@ -145,6 +147,7 @@ def tigadimensi():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
+         "criador":"@Supra",
          "results":p
          }
         return js
