@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     a = {
-    'Contoh-Penggunaan':{'Tá procurando o que?'}
+    'Contoh-Penggunaan':{'curioso':'Tá procurando o que?'}
     }
     return a
 
