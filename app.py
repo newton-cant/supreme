@@ -12,9 +12,6 @@ def home():
     }
     return a
 
-@app.route('/blackpink')
-    js = {"link_img":"https://bit.ly/supra-api"}
-    return js
 
 @app.route('/api/textmaker', methods=['GET'])
 def makerr():
