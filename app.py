@@ -68,6 +68,34 @@ def makerr2():
          }
         return js
 
+    @app.route('/api/', methods=['GET'])
+def makerr2():
+    from lib.textmaker2 import tulis
+    text = request.args.get('text')
+    tulis=tulis(text)
+    for i in tulis.tulis():
+        i.save('gambar.jpg')
+        image = open('gambar.jpg', 'rb')
+        image_read = image.read()
+        image_64_encode = base64.encodebytes(image_read)
+        url = 'https://api.imgbb.com/1/upload'
+        par = {
+         'key':'761ea2d5575581057a799d14e9c78e28',
+         'image':image_64_encode,
+         'name':'support supra',
+         'expiration': 60
+         }
+        headers = {
+         'Accept': 'application/json'
+         }
+        req = requests.post(url,data=par, headers=headers)
+        p = req.json()['data']['display_url']
+        js = {
+         "criador":"@supra",
+         "results":"https://bit.ly/supra-api"
+         }
+        return js
+    
 @app.route('/api/textmaker3', methods=['GET'])
 def makerr3():
     from lib.textmaker3 import tulis
