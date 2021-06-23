@@ -14,10 +14,10 @@ def home():
 
 @app.route('/blackpink')
 def home():
-    k = {
-    'Contoh-Penggunaan':{"link_img":"https://bit.ly/supra-api"}
-    }
-    return k
+   
+    js:{"link_img":"https://bit.ly/supra-api"}
+    
+    return js
 
 @app.route('/api/textmaker', methods=['GET'])
 def makerr():
