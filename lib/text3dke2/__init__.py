@@ -22,7 +22,7 @@ class tulis:
             spliter=kata.split("\n")
         else:
             spliter=self.text
-        line=115
+        line=120
         for i in spliter[:56]:
             draw.text((70, int(line)), i, font=font, fill=("white")) #selisih = Line
             line+=85 + 4.0
