@@ -35,6 +35,7 @@ def makerr():
         req = requests.post(url,data=par, headers=headers)
         p = req.json()['data']['display_url']
         js = {
+         "Criador" : "@Supra"
          "results":p
          }
         return js
