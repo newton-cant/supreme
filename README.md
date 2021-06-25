@@ -1,4 +1,4 @@
-## ✨ API oficial do TextMaker
+## ✨ API @SUPRA oficial do TextMaker 
 
 Apa ? Textpro ? Photooxy ? Bukan dong, ini ApI 100% Buatan Sndiri Tanpa Bantuan Siapa pun 👍
 
